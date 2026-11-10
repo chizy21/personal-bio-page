@@ -63,11 +63,12 @@ a:hover {
     text-align: center;
 }
 
-.bio img {
-    max-width: 150px;
+.bio-img {
+    max-width: 250px;
     border-radius: 50%;
     display: block;
     margin: 0 auto 1rem;
+    box-shadow: 0 14px 16px rgb(223, 219, 219), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* ===== Posts Section ===== */
@@ -101,6 +102,12 @@ a:hover {
 .social-links li {
     display: inline;
 }
+.social-links a:hover{
+    text-decoration: underline;
+    background-color: #000;
+    color: white;
+}
+
 
 /* ===== Button Link ===== */
 .button {
