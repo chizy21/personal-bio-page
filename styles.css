@@ -138,3 +138,13 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+
+/* Highlight Featured Work Section */
+.featured {
+  border: 2px solid #ff9900;
+  box-shadow: 0 0 10px rgba(255, 153, 0, 0.3);
+}
+
+.featured h2 {
+  color: #ff9900;
+}
