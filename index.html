@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Author Bio Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
     <!-- Starter CSS already linked -->
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -21,10 +24,9 @@
         <!-- Bio Content -->
         <div>
           <!-- Optional: Author image -->
-          <img src="/images/Greg.jpg" alt="Headshot picture of Greg Perry" />
+          <img class="bio-img" src="/images/Greg.jpg" alt="Headshot picture of Greg Perry" />
           <p class="bio">
-            Retired Network Engineer, Technology Enthusiast, Navy Veteran. Past
-            certifications include: A+, Network+, MCSA 2000, Novell 4.x Admin
+            Retired Network Engineer, Technology Enthusiast, Navy Veteran.
           </p>
         </div>
 
@@ -44,21 +46,37 @@
 
           <div class="post-card">
             <p>Professional Skills</p>
-            <p>Brief summary of the second blog post goes here...</p>
+                <ul>
+                    <li>Network Engineering</li>
+                    <li>System Administration</li>
+                    <li>Cybersecurity</li>
+                    <li>Cloud Computing</li>
+                </ul>
             <p class="button"><a href="#">Read more</a></p>
           </div>
 
           <div class="post-card">
-            <p>Sample Blog Post 3</p>
-            <p>Brief summary of the third blog post goes here...</p>
+            <p>My Certifications</p>
+                <ul>
+                    <li>A+</li>
+                    <li>Network+</li>
+                    <li>MCSA 2000</li>
+                    <li>Novell 4.x Admin</li>
+                </ul>
             <p class="button"><a href="#">Read more</a></p>
           </div>
         </div>
       </div>
       <!-- ===== Footer / Contact ===== -->
       <div class="contact">
-        <p>Email: <a href="#">author@example.com</a></p>
+        <p>Email: <a href="mailto:chizy2@gmail.com">chizy2@gmail.com</a></p>
         <!-- Social Links -->
+        <p>Social Links:</p>
+        <ul class="social-links">
+          <li><a href="https://twitter.com/chizy2" target="_blank">Twitter</a></li>
+          <li><a href="https://github.com/chizy2" target="_blank">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/chizy2" target="_blank">LinkedIn</a></li>
+        </ul>
         <!-- Footer Line -->
       </div>
     </div>
